@@ -539,128 +539,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1470671868
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1470671870}
-  - component: {fileID: 1470671869}
-  m_Layer: 0
-  m_Name: XRManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1470671869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470671868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a4f5678e5b5ec84385499d4109887e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _sleepTimeoutMins: 3
-  _isHeadsetIsWeared: 0
-  _isRestarting: 0
-  _isSleeping: 0
-  onSleep:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1285243088}
-        m_TargetAssemblyTypeName: XRManagerUsageExample, Assembly-CSharp
-        m_MethodName: OnSleepTest
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onWake:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1285243088}
-        m_TargetAssemblyTypeName: XRManagerUsageExample, Assembly-CSharp
-        m_MethodName: OnWakeTest
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onWaked:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1285243088}
-        m_TargetAssemblyTypeName: XRManagerUsageExample, Assembly-CSharp
-        m_MethodName: OnWakedTest
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onWear:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1285243088}
-        m_TargetAssemblyTypeName: XRManagerUsageExample, Assembly-CSharp
-        m_MethodName: OnWearTest
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onTakenOff:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1285243088}
-        m_TargetAssemblyTypeName: XRManagerUsageExample, Assembly-CSharp
-        m_MethodName: TakenOffTest
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!4 &1470671870
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470671868}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 26.339746, z: -12}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &1521051713
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -973,3 +851,247 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2038249430}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6623902992451972160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6623902993263069116, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_Name
+      value: XRManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWake.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWear.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onSleep.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWaked.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onTakenOff.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWake.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWear.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onSleep.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWaked.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWake.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1285243088}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWear.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1285243088}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onSleep.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1285243088}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWaked.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1285243088}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onTakenOff.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWake.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWear.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onSleep.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onTakenOff.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1285243088}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWake.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnWakeTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWaked.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWear.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnWearTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onSleep.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSleepTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWaked.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnWakedTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onTakenOff.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onTakenOff.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TakenOffTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWake.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: XRManagerUsageExample, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWear.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: XRManagerUsageExample, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onSleep.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: XRManagerUsageExample, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWaked.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: XRManagerUsageExample, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onTakenOff.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: XRManagerUsageExample, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWake.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWear.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onSleep.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onWaked.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069117, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: onTakenOff.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.339746
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623902993263069118, guid: 740c8301d3b10ce47bdb6b31b8f05116,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 740c8301d3b10ce47bdb6b31b8f05116, type: 3}
